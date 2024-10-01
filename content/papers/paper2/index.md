@@ -1,62 +1,37 @@
 ---
-title: "The Finer Points of Sausage Dogs" 
-date: 2004-12-28
+title: "Quantum self-consistent equation-of-motion method for computing molecular excitation energies, ionization potentials, and electron affinities on a quantum computer" 
+date: 2023-01-28
 lastmod: 2024-07-12
-tags: ["zoology","sausage dogs","canine pulmonary efficiency","canine science","experimental zoology"]
-author: ["Florianus Prinzel", "Moritz-Maria von Igelfeld"]
-description: "This paper studies the pulmonary efficiency of sausage dogs. Published in the Journal of Canine Science, 2004." 
-summary: "This paper studies the pulmonary efficiency of sausage dogs through several experiments." 
+tags: ["quantum chemistry","subspace based methods","quantum algorithms","excited states"]
+author: ["Ayush Asthana", "Ashutosh Kumar", "Vibin Abraham", "Harper Grimsley", "Yu Zhang", "Lukasz Cincio", "Sergei Tretiak", "Pavel A Dub", "Sophia E Economou", "Edwin Barnes", "Nicholas J Mayhall"]
+description: "This work explores the development of a novel equation-of-motion-based method for calculating excitation energies on near-term quantum computers, highlighting its advantages for accurately simulating electronically excited states in small molecules." 
+summary: "This work introduces the equation-of-motion-based method (q-sc-EOM) for calculating excitation energies on near-term quantum computers, addressing the need for reliable excited-state simulations. The method leverages self-consistent operators to ensure accuracy while satisfying the vacuum annihilation condition. Numerical simulations on small molecules demonstrate that q-sc-EOM provides precise energy differences for vertical excitations, ionization potentials, and electron affinities. Additionally, its design enhances resilience to noise, making it well-suited for implementation on Noisy Intermediate-Scale Quantum (NISQ) devices, thereby facilitating routine excited-state calculations essential for chemical and material research." 
 cover:
     image: "paper2.png"
-    alt: "Dimensions of a sausage dog"
+    alt: ""
     relative: false
 editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Journal of Canine Science"
+    URL: "https://pubs.rsc.org/en/content/articlehtml/2023/sc/d2sc05371c"
+    Text: "Chemical Science"
 
 ---
 
 ---
 
-##### Download
+##### Links
 
-+ [Paper](paper2.pdf)
-+ [Online appendix](appendix2.pdf)
-+ [Code and data](https://github.com/pmichaillat/wunk)
++ [Paper](https://pubs.rsc.org/en/content/articlehtml/2023/sc/d2sc05371c)
 
 ---
 
 ##### Abstract
+This work introduces the equation-of-motion-based method (q-sc-EOM) for calculating excitation energies on near-term quantum computers, addressing the need for reliable excited-state simulations. The method leverages self-consistent operators to ensure accuracy while satisfying the vacuum annihilation condition. Numerical simulations on small molec    ules demonstrate that q-sc-EOM provides precise energy differences for vertical excitations, ionization potentials, and electron affinities. Additionally, its design enhances resilience to noise, making it well-suited for implementation on Noisy Intermediate-Scale Quantum (NISQ) devices, thereby facilitating routine excited-state calculations essential for c    hemical and material research.
 
-This paper studies the pulmonary efficiency of sausage dogs. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur: $\sin(\theta) = x^2 - \exp(1+\chi)$. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor $\zeta$ incididunt ut labore et dolore magna aliqua: $p(x) = \int \cos(\zeta) d\zeta - \theta$. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ---
 
-##### Figure 2: Dimensions of a sausage dog
 
 ![](paper2.png)
 
 ---
 
-##### Citation
-
-Prinzel, Florianus, and Moritz-Maria von Igelfeld. 2004. "The Finer Points of Sausage Dogs." *Journal of Canine Science* 43 (2): 89–109. http://www.alexandermccallsmith.com/book/the-finer-points-of-sausage-dogs.
-
-```BibTeX
-@article{PI04,
-author = {Florianus Prinzel and Moritz-Maria von Igelfeld},
-year = {2004},
-title ={The Finer Points of Sausage Dogs},
-journal = {Journal of Canine Science},
-volume = {43},
-number = {2},
-pages = {89--109},
-url = {http://www.alexandermccallsmith.com/book/the-finer-points-of-sausage-dogs}}
-```
-
----
-
-##### Related material
-
-+ [Presentation slides](presentation2.pdf)
-+ [Wikipedia entry](https://en.wikipedia.org/wiki/The_Finer_Points_of_Sausage_Dogs)

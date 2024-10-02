@@ -13,22 +13,22 @@ menu:
     main:
         - name: CV
           url: cv.pdf
-          weight: 5 
+          weight: 3 
         - name: Papers
           url: papers/
+          weight: 1
+        #- name: Software
+        #  url: software/
           weight: 2
-        - name: Software
-          url: software/
-          weight: 3
+        - name: Github
+          url: https://github.com/vibinabraham
+          weight: 4
         #- name: Courses
         #  url: courses/
         #  weight: 3
         #- name: Data
         #  url: data/
         #  weight: 4 
-        - name: Github
-          url: https://github.com/vibinabraham
-          weight: 6
 
 params:
     description: "I am a theoretical chemist specializing in the intersection of computational chemistry and condensed matter theory. My research focuses on the accurate calculation of excited states in condensed systems and molecules, with a particular emphasis on applications related to molecular qubit realization and energy transfer processes."
@@ -65,8 +65,8 @@ params:
           buttons:
             - name: Papers
               url: papers/
-            - name: Software
-              url: software/
+            #- name: Software
+            #  url: software/
 
             #- name: Research
             #  url: research/

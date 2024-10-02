@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Subspace Based Methods on Vibin Abraham</title>
+    <link>http://localhost:1313/tags/subspace-based-methods/</link>
+    <description>Recent content in Subspace Based Methods on Vibin Abraham</description>
+    <generator>Hugo -- 0.135.0</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/subspace-based-methods/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quantum self-consistent equation-of-motion method for computing molecular excitation energies, ionization potentials, and electron affinities on a quantum computer</title>
+      <link>http://localhost:1313/papers/paper2/</link>
+      <pubDate>Sat, 28 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/paper2/</guid>
+      <description>This work explores the development of a novel equation-of-motion-based method for calculating excitation energies on near-term quantum computers, highlighting its advantages for accurately simulating electronically excited states in small molecules.</description>
+    </item>
+  </channel>
+</rss>

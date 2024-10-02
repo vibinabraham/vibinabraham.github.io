@@ -19,6 +19,7 @@ menu:
           weight: 2
         - name: Software
           url: software/
+          weight: 3
         #- name: Courses
         #  url: courses/
         #  weight: 3
@@ -45,7 +46,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["software","courses","papers","data"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true

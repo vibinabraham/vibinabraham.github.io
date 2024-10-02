@@ -17,8 +17,8 @@ menu:
         - name: Papers
           url: papers/
           weight: 1
-        #- name: Software
-        #  url: software/
+        - name: Software
+          url: software/
           weight: 2
         - name: Github
           url: https://github.com/vibinabraham
@@ -65,8 +65,8 @@ params:
           buttons:
             - name: Papers
               url: papers/
-            #- name: Software
-            #  url: software/
+            - name: Software
+              url: software/
 
             #- name: Research
             #  url: research/

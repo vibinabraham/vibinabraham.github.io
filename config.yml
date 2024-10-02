@@ -17,6 +17,8 @@ menu:
         - name: Papers
           url: papers/
           weight: 2
+        - name: Software
+          url: software/
         #- name: Courses
         #  url: courses/
         #  weight: 3
@@ -66,8 +68,8 @@ params:
             #  url: research/
             #- name: Experience
             #  url: courses/
-            #- name: Software
-            #  url: books/
+            - name: Software
+              url: software/
 
             #- name: Papers
             #  url: papers/
@@ -86,7 +88,7 @@ params:
         - name: CV
           url: cv.pdf
         - name: Email
-          url: avibin@umich.edu
+          url: mailto:avibin@umich.edu
         - name: Zoom
           url: https://umich.zoom.us/j/5999579804
         - name: Location

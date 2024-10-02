@@ -111,7 +111,7 @@ params:
         hiddenInSingle: true
     label:
       text: "Vibin Abraham"
-      icon: blue.ico
+      icon: favicon.ico
       iconHeight: 18
 
 markup:

@@ -65,13 +65,13 @@ params:
           buttons:
             - name: Papers
               url: papers/
+            - name: Software
+              url: software/
+
             #- name: Research
             #  url: research/
             #- name: Experience
             #  url: courses/
-            - name: Software
-              url: software/
-
             #- name: Papers
             #  url: papers/
             #- name: Data

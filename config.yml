@@ -58,7 +58,7 @@ params:
           enabled: true
           title: Dr. Vibin Abraham
           subtitle: "I am a theoretical chemist specializing in the intersection of computational chemistry and condensed matter theory. My research focuses on the accurate calculation of excited states in condensed systems and molecules, with a particular emphasis on applications related to molecular qubit realization and energy transfer processes."
-          imageUrl: "picture4.jpeg"
+          imageUrl: "picture4.jpg"
           imageWidth: 140
           imageHeight: 140
           imageTitle: Vibin Abraham

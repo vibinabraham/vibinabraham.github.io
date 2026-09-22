@@ -13,16 +13,19 @@ menu:
     main:
         - name: CV
           url: cv.pdf
-          weight: 3 
+          weight: 4
         - name: Papers
           url: papers/
           weight: 1
+        - name: Publications
+          url: publications/
+          weight: 2
         - name: Software
           url: software/
-          weight: 2
+          weight: 3
         - name: Github
           url: https://github.com/vibinabraham
-          weight: 4
+          weight: 5
         #- name: Courses
         #  url: courses/
         #  weight: 3
@@ -31,7 +34,8 @@ menu:
         #  weight: 4 
 
 params:
-    description: "I am a theoretical chemist specializing in the intersection of computational chemistry and condensed matter theory. My research focuses on the accurate calculation of excited states in condensed systems and molecules, with a particular emphasis on applications related to molecular qubit realization and energy transfer processes."
+    description: "Vibin Abraham, theoretical chemist at Pacific Northwest National Laboratory. Many-body methods (GW, Green's functions, tensor product states), quantum algorithms for chemistry, and open-source scientific software."
+    keywords: ["Vibin Abraham", "quantum chemistry", "computational chemistry", "GW", "Green's function", "quantum computing", "quantum algorithms", "excited states", "tensor product states", "scientific software", "PNNL"]
     author: Vibin Abraham
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
@@ -57,7 +61,7 @@ params:
     profileMode:
           enabled: true
           title: Dr. Vibin Abraham
-          subtitle: "I am a theoretical chemist specializing in the intersection of computational chemistry and condensed matter theory. My research focuses on the accurate calculation of excited states in condensed systems and molecules, with a particular emphasis on applications related to molecular qubit realization and energy transfer processes."
+          subtitle: "Theoretical chemist at **Pacific Northwest National Laboratory**. I develop and apply many-body methods and quantum algorithms to predict excited states and spectra of molecules and materials, with applications to molecular qubits, energy transfer, and heavy-element chemistry.<br><br>**Expertise:** Green's function methods (fully self-consistent GW, relativistic) · tensor product state and selected CI methods · quantum algorithms for chemistry (VQE, equation-of-motion) · uncertainty quantification on noisy quantum hardware · scientific software in Python and Julia."
           imageUrl: "picture4.jpg"
           imageWidth: 140
           imageHeight: 140
@@ -67,6 +71,8 @@ params:
               url: papers/
             - name: Software
               url: software/
+            - name: CV
+              url: cv.pdf
 
             #- name: Research
             #  url: research/
@@ -89,15 +95,13 @@ params:
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:avibin@umich.edu
-        - name: Zoom
-          url: https://umich.zoom.us/j/5999579804
+          url: mailto:vibinabraham22@gmail.com
         - name: Location
           url: location
         #- name: Office Hours
         #  url: officehours/
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=OD9zjt0AAAAJ&hl=en
+          url: https://scholar.google.com/citations?user=86sYnsYAAAAJ&hl=en
         - name: GitHub
           url: https://github.com/vibinabraham
         #- name: Substack

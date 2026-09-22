@@ -2,7 +2,7 @@
 title: "Location"
 date: 2024-05-08
 hidemeta: true
-description: "Department of Chemistry 930 N. University Ann Arbor, MI 48109-1055"
+description: "Pacific Northwest National Laboratory"
 
 ---
 
@@ -12,14 +12,8 @@ description: "Department of Chemistry 930 N. University Ann Arbor, MI 48109-1055
 
 Dr. Vibin Abraham
 
-Department of Chemistry
+Pacific Northwest National Laboratory
 
-University of Michigan
-
-Ann Arbor, USA
+Richland, WA, USA
 
 ---
-
-
-
-

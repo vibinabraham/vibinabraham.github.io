@@ -13,19 +13,22 @@ menu:
     main:
         - name: CV
           url: cv.pdf
-          weight: 4
+          weight: 5
+        - name: Research
+          url: research/
+          weight: 1
         - name: Papers
           url: papers/
-          weight: 1
+          weight: 2
         - name: Publications
           url: publications/
-          weight: 2
+          weight: 3
         - name: Software
           url: software/
-          weight: 3
+          weight: 4
         - name: Github
           url: https://github.com/vibinabraham
-          weight: 5
+          weight: 6
         #- name: Courses
         #  url: courses/
         #  weight: 3
@@ -67,6 +70,8 @@ params:
           imageHeight: 140
           imageTitle: Vibin Abraham
           buttons:
+            - name: Research
+              url: research/
             - name: Papers
               url: papers/
             - name: Software

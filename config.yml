@@ -64,7 +64,34 @@ params:
     profileMode:
           enabled: true
           title: Dr. Vibin Abraham
-          subtitle: "Theoretical chemist at **Pacific Northwest National Laboratory**. I develop and apply many-body methods and quantum algorithms to predict excited states and spectra of molecules and materials, with applications to molecular qubits, energy transfer, and heavy-element chemistry.<br><br>**Expertise:** Green's function methods (fully self-consistent GW, relativistic) · tensor product state and selected CI methods · quantum algorithms for chemistry (VQE, equation-of-motion) · uncertainty quantification on noisy quantum hardware · scientific software in Python and Julia."
+          role: "Theoretical Chemist · Many-Body Theory & Quantum Computing · PNNL"
+          pitch: "I am a theoretical chemist working at the intersection of quantum chemistry, condensed matter theory, and quantum computing. My research focuses on **wavefunction-based many-body methods** for the accurate calculation of excited states and spectra in strongly correlated molecules and materials, with particular emphasis on X-ray spectroscopy, heavy-element chemistry, and quantum algorithms for chemistry."
+          expertise:
+            - "Wavefunction methods"
+            - "Strongly correlated systems"
+            - "Excited states"
+            - "X-ray & core-level spectroscopy"
+            - "Quantum algorithms"
+            - "Quantum architecture"
+            - "Condensed matter theory"
+            - "Green's functions / GW"
+            - "Relativistic methods"
+            - "Coupled-cluster theory"
+            - "Tensor product states"
+            - "Scientific software (Python, Julia)"
+          highlights:
+            - label: "Latest paper"
+              title: "Many-body effects in molecular core spectra through real-time approaches"
+              venue: "J. Chem. Phys. 2026"
+              url: "papers/paper6/"
+            - label: "New preprint"
+              title: "Geometry-dependent valence screening after core ionization of the water dimer"
+              venue: "arXiv:2608.22268"
+              url: "https://arxiv.org/abs/2608.22268"
+            - label: "New preprint"
+              title: "Hybrid quantum–classical dual-space variational formulation"
+              venue: "arXiv:2609.04387"
+              url: "papers/paper4/"
           imageUrl: "picture4.jpg"
           imageWidth: 140
           imageHeight: 140

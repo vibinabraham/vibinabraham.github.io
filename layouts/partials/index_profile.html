@@ -1,0 +1,44 @@
+{{- /* Custom homepage hero (overrides PaperMod index_profile.html) */ -}}
+{{- with site.Params.profileMode }}
+<section class="home-hero">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-inner">
+    {{- with .imageUrl }}
+    <img class="hero-photo" draggable="false" src="{{ . | absURL }}" alt="{{ $.Site.Params.profileMode.imageTitle | default "profile image" }}" width="180" height="180">
+    {{- end }}
+    <div class="hero-text">
+      <h1>{{ .title | default site.Title }}</h1>
+      {{- with .role }}<p class="hero-role">{{ . | markdownify }}</p>{{ end }}
+      {{- with .pitch }}<p class="hero-pitch">{{ . | markdownify }}</p>{{ end }}
+      {{- with .expertise }}
+      <ul class="hero-chips">
+        {{- range . }}<li>{{ . }}</li>{{ end }}
+      </ul>
+      {{- end }}
+      {{- partial "social_icons.html" -}}
+      {{- with .buttons }}
+      <div class="hero-buttons">
+        {{- range . }}
+        <a class="hero-button" href="{{ trim .url " " | absURL }}">{{ .name }}</a>
+        {{- end }}
+      </div>
+      {{- end }}
+    </div>
+  </div>
+</section>
+
+{{- with .highlights }}
+<section class="home-highlights">
+  <h2>Highlights</h2>
+  <div class="highlight-grid">
+    {{- range . }}
+    <a class="highlight-tile" href="{{ .url }}">
+      <span class="hl-label">{{ .label }}</span>
+      <span class="hl-title">{{ .title }}</span>
+      <span class="hl-venue">{{ .venue }}</span>
+    </a>
+    {{- end }}
+  </div>
+</section>
+{{- end }}
+{{- end }}

@@ -41,3 +41,13 @@
 @media (max-width: 640px) {
   .research-card { grid-template-columns: 1fr; }
 }
+
+/* Papers list: keep cover figures compact so cards stay scannable */
+.post-entry .entry-cover { max-height: 240px; overflow: hidden; display: flex; justify-content: center; background: #fff; border-radius: 6px; }
+.post-entry .entry-cover img { max-height: 240px; width: auto; object-fit: contain; }
+
+/* Motivation block + section heading + card lists */
+.post-content .research-vision h2 { margin: 0 0 8px; font-size: 1.25rem; color: #3b6ea5; }
+.post-content h2.research-heading { font-size: 1.4rem; margin: 8px 0 16px; }
+.research-card ul { margin: 0 0 6px; padding-left: 20px; }
+.research-card li { margin-bottom: 6px; }

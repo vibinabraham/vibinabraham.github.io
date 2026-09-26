@@ -6,8 +6,8 @@ author: ["Vibin Abraham", "Priyabrata Senapati", "Himadri Pathak", "Bo Peng"]
 description: "Real-time classical and quantum approaches for capturing many-body effects in molecular core-level spectra."
 summary: "A hierarchy of cost-effective time-dependent double coupled-cluster (TD-dCC) methods that reproduce exact many-body satellite features and quasiparticle weights in core spectra (Anderson impurity model, H2O, CH4), plus a fault-tolerant quantum signal processing algorithm for the core-hole Green's function."
 cover:
-    image: "paper6.png"
-    alt: "Block-encoding / QSP based quantum algorithm circuit"
+    image: "paper6_toc.png"
+    alt: "Real-time coupled-cluster Green's function ansatz and quantum algorithm perspective"
     relative: false
 editPost:
     URL: "https://pubs.aip.org/aip/jcp/article/164/10/104113/3383265/Elucidating-many-body-effects-in-molecular-core"
@@ -24,6 +24,7 @@ editPost:
 ---
 
 
-![Block-encoding / QSP based quantum algorithm](paper6.png)
+![Real-time coupled-cluster Green's function ansatz (left) and the quantum algorithm perspective (right)](paper6_toc.png)
+
 
 ---

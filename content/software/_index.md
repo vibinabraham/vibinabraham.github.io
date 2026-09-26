@@ -3,11 +3,15 @@ title: "Software"
 description: "Open-source scientific software packages developed and contributed to by Vibin Abraham."
 ---
 
+## pytdcc
+
+Software for **real-time coupled-cluster** calculations of X-ray (core-level) spectra. I am building it, including GPU acceleration to reach larger systems. [Paper (J. Chem. Phys. 2026)](https://pubs.aip.org/aip/jcp/article/164/10/104113/3383265/Elucidating-many-body-effects-in-molecular-core)
+
 ## Green Software Package
 
 The **Green Software Package** simulates realistic materials at finite temperature using Green's function methods. It implements many-body techniques including self-energy embedding, fully self-consistent GW, and second-order perturbation theory, for both solids and molecules. My relativistic GW work for heavy-element molecules is built on this framework.
 
-[green-phys.org](https://green-phys.org/) · [Paper (Comput. Phys. Commun. 2024)](https://www.sciencedirect.com/science/article/abs/pii/S0010465524003035)
+[green-phys.org](https://green-phys.org/) · [Paper (Comput. Phys. Commun. 2025)](https://www.sciencedirect.com/science/article/abs/pii/S0010465524003035)
 
 ## FermiCluster
 

@@ -17,12 +17,9 @@ menu:
         - name: Research
           url: research/
           weight: 1
-        - name: Papers
+        - name: Publications
           url: papers/
           weight: 2
-        - name: Publications
-          url: publications/
-          weight: 3
         - name: Software
           url: software/
           weight: 4
@@ -53,7 +50,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["software","courses","papers","data"]
+    MainSections: ["papers"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -65,19 +62,17 @@ params:
           enabled: true
           title: Dr. Vibin Abraham
           role: "Theoretical Chemist · Many-Body Theory & Quantum Computing · PNNL"
-          pitch: "I am a theoretical chemist working at the intersection of quantum chemistry, condensed matter theory, and quantum computing. My research focuses on **wavefunction-based many-body methods** for the accurate calculation of excited states and spectra in strongly correlated molecules and materials, with particular emphasis on X-ray spectroscopy, heavy-element chemistry, and quantum algorithms for chemistry."
+          pitch: "I work at the intersection of quantum chemistry, condensed matter theory, and quantum computing, developing **wavefunction-based many-body methods** for excited states and spectra, with a focus on X-ray spectroscopy, heavy elements, and quantum algorithms."
           expertise:
             - "Wavefunction methods"
+            - "Coupled-cluster theory"
+            - "Green's functions / GW"
             - "Strongly correlated systems"
             - "Excited states"
-            - "X-ray & core-level spectroscopy"
+            - "X-ray spectroscopy"
             - "Quantum algorithms"
             - "Quantum architecture"
             - "Condensed matter theory"
-            - "Green's functions / GW"
-            - "Relativistic methods"
-            - "Coupled-cluster theory"
-            - "Tensor product states"
             - "Scientific software (Python, Julia)"
           highlights:
             - label: "Latest paper"
@@ -99,7 +94,7 @@ params:
           buttons:
             - name: Research
               url: research/
-            - name: Papers
+            - name: Publications
               url: papers/
             - name: Software
               url: software/
@@ -128,10 +123,12 @@ params:
           url: cv.pdf
         - name: Email
           url: mailto:vibinabraham22@gmail.com
-        - name: Location
-          url: location
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/vibin-abraham-880b65104/
         #- name: Office Hours
         #  url: officehours/
+        - name: ORCID
+          url: https://orcid.org/0000-0001-6457-209X
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=86sYnsYAAAAJ&hl=en
         - name: GitHub
